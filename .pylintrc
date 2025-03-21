@@ -3,7 +3,8 @@
 disable=
       C0114, # missing-module-docstring
       C0115, # Missing-class-docstring
-      C0116, # missing-function-docstring 
+      C0116, # missing-function-docstring
+      C0202, # bad-classmethod-argument 
       C0209, # consider-using-f-string
       C0301, # Line too long
       E0015, # unrecognized-option,
