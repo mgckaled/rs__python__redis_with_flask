@@ -1,10 +1,10 @@
 from sqlite3 import Connection as SqliteConnection
 
 
-class ProductsRepositoru:
+class ProductsRepository:
     def __init__(self, conn: SqliteConnection) -> None:
         """
-        Initializes a new instance of the ProductsRepositoru class.
+        Initializes a new instance of the ProductsRepository class.
 
         Args:
             conn: A SQLite connection object.
